@@ -7062,9 +7062,10 @@ div.card {
       right: 10px; }
 
 section.home-intro {
-  font-family: "Comic Sans MS";
-  color: pink;
   background-color: greenyellow; }
+  section.home-intro h1 {
+    font-family: "Comic Sans MS";
+    color: pink; }
 
 .popup {
   margin: 0 auto;

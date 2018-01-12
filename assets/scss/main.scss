@@ -16,9 +16,12 @@ div.card {
 }
 
 section.home-intro {
-  font-family:"Comic Sans MS";
-  color: pink;
   background-color: greenyellow;
+
+  h1 {
+    font-family:"Comic Sans MS";
+    color: pink;
+  }
 }
 
 .popup {
