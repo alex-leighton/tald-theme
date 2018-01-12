@@ -1,0 +1,30 @@
+section {
+  @include grid-row();
+}
+
+div.card {
+  @include grid-column(4);
+  margin: 0 auto;
+
+  .card-divider {
+    position: relative;
+    i {
+      position: absolute;
+      right: 10px;
+    }
+  }
+}
+
+.popup {
+  margin: 0 auto;
+  width: 400px;
+  height: auto;
+  border: 2px solid #f4f4f4;
+  padding: 8px;
+  display: none;
+}
+
+.show {
+  display: block;
+  z-index: 1;
+}

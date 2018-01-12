@@ -1,0 +1,41 @@
+==
+
+{% partial 'header' %}
+
+<section>
+  <div class="cards">
+
+    <div class="card">
+      <div class="card-divider">
+        <h3>List Name</h3>
+        <button type="button" id="editTitle">
+          <i class="fa fa-pencil" aria-hidden="true"></i>
+        </button>
+      </div>
+      <div class="card-section">
+        <ul>
+
+        </ul>
+        <input type="text" id="addItem" value="Add Item">
+        <button type="button" class="alert button" id="btnAddItem">Add Item</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section>
+
+  <div class="popup">
+    <h4>Change List Name</h4>
+    <button type="button" class="active button btnClose">
+      <i class="fa fa-times" aria-hidden="true"></i>
+    </button>
+    <input type="text" id="changeListName">
+    <button type="button" class="alert button" id="btnChangeName">Change Name</button>
+  </div>
+
+</section>
+
+
+{% partial 'footer' %}

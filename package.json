@@ -1,0 +1,26 @@
+{
+  "name": "aston",
+  "version": "1.0.0",
+  "description": "Theme for Aston Engineering website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.oi-you.com/Aston/Website.git"
+  },
+  "author": "Oi",
+  "license": "ISC",
+  "devDependencies": {
+    "font-awesome": "^4.7.0",
+    "foundation-sites": "^6.4.4-rc1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-sass": "^3.1.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "dependencies": {
+    "gulp-concat": "^2.6.1"
+  }
+}
