@@ -1,0 +1,22 @@
+<html>
+  <head>
+
+  </head>
+  <body>
+
+    <div id="root">
+
+      <input type="radio" id="one" value="One" v-model="firstChecked">
+      <label for="one">Calculator</label>
+      <br>
+      <!--<input type="radio" id="two" value="Two" v-model="secondChecked">-->
+      <!--<label for="two">Two</label>-->
+
+      <first-comp v-if="firstChecked"></first-comp>
+      <second-comp v-if="secondChecked"></second-comp>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="{{ 'assets/js/app.js'|theme }}"></script>
+  </body>
+</html>
