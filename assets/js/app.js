@@ -25,7 +25,7 @@ Vue.component('first-comp', {
         <input type="number" v-model="firstNumber">
         <p>*</p>
         <input type="number" v-model="secondNumber">
-        <p v-text="result"></p>
+        <p v-text="results"></p>
         </div>
     `,
     computed: {
